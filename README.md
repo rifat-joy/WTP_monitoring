@@ -1,4 +1,4 @@
-# Developer Muanual  
+# Developer Documentation  
 
 ## Library Information and Installation guide 
     install python -> 3.10 and pip
