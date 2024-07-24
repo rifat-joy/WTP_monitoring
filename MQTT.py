@@ -28,9 +28,9 @@ def get_random_string(length):
 
 module_dir= os.path.dirname(__file__)
 TLS_CERT_PATH=os.path.join(module_dir,'newvision_root.cer')
-broker_address="waterplant.vertical-innovations.com"
+broker_address="************"
 clientPing = mqtt.Client(get_random_string(8)) #create new instance
-clientPing.username_pw_set(username="newqttvm",password="newqttvm")
+clientPing.username_pw_set(username="*****",password="*****")
 clientPing.on_connect = on_connect
 clientPing.on_message=on_message_ping #attach function to callback
 print("connecting to broker...")
